@@ -13,6 +13,7 @@ class ProductionConfig(Config):
     BLOG_CODE = "Hindi"
     MONGO_GALLERY_TABLE = "gallery"
     MONGO_BLOG_TABLE = "hindi_blog"
+    TEMPLATE_FOLDER_PATH = "template"
 
 
 class DevelopmentConfig(Config):
